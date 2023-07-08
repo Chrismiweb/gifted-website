@@ -1,0 +1,924 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wholebody{
+    overflow: hidden;
+}
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+.logo img{
+    height: 110px;
+}
+.navbar{
+    display: flex;
+    gap: 110px;
+}
+.navbar li{
+    list-style-type: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+.signup{
+    cursor: pointer;
+    background-color: #5852FE;
+    height: 50px;
+    width: 10%;
+    color: white;
+    border-radius: 30px;
+    border: solid #5852FE ;
+}
+.signup a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.signup:hover{
+    transform: scale(1.1);
+    transition: 1s ease-out;
+
+}
+/* ---------------section 1 ------------ */
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.group img{
+    height: 450px;
+}
+.firsttext{
+    width: 35%;
+    margin-left: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.firsttext h1{
+    font-size: 40px;
+    font-family: poppins;
+}
+.firsttext p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+}
+.firsttext button{
+    cursor: pointer;
+    background-color: #5852FE;
+    height: 50px;
+    width: 35%;
+    color: white;
+    border-radius: 30px;
+    border: solid #5852FE ;
+    margin-top: 20px;
+
+}
+.firsttext button a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    
+}
+.firsttext button:hover{
+    transform: scale(1.1);
+    transition: 1s ease-out;
+
+}
+
+/* ------------------section 2-------------- */
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5852FE;
+    margin-top: 70px;
+    justify-content: space-around;
+}
+.about img{
+    height: 350px;
+}
+.gifted{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.gifted h1{
+    font-size: 35px;
+    font-family: poppins;
+    color: white;
+}
+.gifted p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+}
+
+/* -------------section 3-------------- */
+
+.how{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.how h1{
+    border: solid black;
+    width: 16%;
+    text-align: center;
+    padding: 5px 0px;
+}
+.grid1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px ;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.firstgrid{
+    width: 20%;
+    height: 450px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.firstgrid p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    letter-spacing: 0.5px;
+}
+.gridimg {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}.gridimg img{
+    height: 250px;
+}
+
+
+
+
+
+
+/* ---------------Section 4------------- */
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.learn{
+    margin-top: 20px;
+    width: 20%;
+    height: 380px;
+    background-color: #5852FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+.cap img{
+    display: flex;
+    margin-top: 50px;
+    height: 60px;
+
+}
+.learn p{
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    margin: 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.learn h2{
+    color: white;
+}
+.learn button{
+    cursor: pointer;
+    background-color: white;
+    height: 50px;
+    width: 70%;
+    color: #5852FE;
+    border-radius: 15px;
+    border:#5852FE;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+.learn button:hover{
+    background-color:black;
+    color: white;
+}
+
+
+.learn1{
+    margin-top: 20px;
+    width: 20%;
+    height: 380px;
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    /* border: solid #5852FE; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.cap1 img{
+    display: flex;
+    margin-top: 20px;
+    height: 60px;
+}
+.learn1 p{
+    text-align: center;
+    color: black;
+    margin: 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.learn1 h2{
+    color: #0000008C;
+}
+.learn1 button{
+    cursor: pointer;
+    background-color: #5852FE;
+    height: 50px;
+    width: 70%;
+    color: white;
+    border-radius: 15px;
+    border: solid #5852FE ;
+    
+}
+.more{
+    width:100% ;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+.learn1 button:hover{
+    background-color:black;
+    color: white;
+    border: solid black ;
+
+}
+
+/* -----------Section 5------------- */
+.course{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.available{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.available h1{
+    border: solid black;
+    padding: 8px 20px;
+
+}
+.main{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overallcover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+    margin-top: 100px;
+
+}
+
+.overallcover1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+.cover{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.design{
+    background-color: #5852FE;
+    width: 65%;
+    height: 70px;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.design h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+.btn{
+    height: 30px;
+    width: 9%;
+    border-radius: 100%;
+    color: #5852FE;
+    font-size: 22px;
+    border: solid #5852FE;
+
+}
+.write{
+    display: none;
+    color: #FFFFFF75;
+}
+.show{
+    display: flex;
+    width: 65%;
+    height: 110px;
+    padding: 0px 35px;
+    text-align: center;
+    /* text-align: center; */
+    background-color: #5852FE;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* -------------Section 6------------- */
+
+
+.part{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.part h1{
+    border: solid black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 20px;
+    font-size: 20px;
+}
+.registration{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.reg h1{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.reg p{
+    width: 50%;
+    font-size: 12px;
+    color: rgb(52, 45, 45);
+    margin-left: 25px;
+    margin-top: 10px;
+
+}
+.registration1{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.take{
+    margin-left: 200px;
+    display: flex;
+    gap: 30px;
+}
+.reg1 h2{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.reg1 p{
+    width: 30%;
+    font-size: 12px;
+    color: rgb(52, 45, 45);
+    margin-left: 25px;
+    margin-top: 10px;
+
+}
+
+
+/* -------------Section 7 ----------- */
+
+.seventh{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.benefit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benefit h1{
+    border: solid black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 20px;
+    font-size: 20px;
+}
+.feature{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+.withdrawal{
+    width: 20%;
+    height: 300px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    border:  solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+
+}
+.hand{
+    width: 100%;
+    height: 180px;
+    background-image: url(Rectangle\ 145.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hand1{
+    width: 100%;
+    height: 180px;
+    background-image: url(Group\ 46\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.hand2{
+    width: 100%;
+    height: 180px;
+    background-image: url(red\ cancel\ icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.withdrawal h1{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+
+}
+.withdrawal P{
+    text-align: center;
+    font-size: 13px;
+    margin: 20px 20px;
+    
+    
+}
+.takequiz{
+    background-color: #5852FE;
+    width: 70%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* border: solid black; */
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.point{
+    width: 60%;
+    height: 250px;
+}
+.point h1{
+    margin-top: 40px;
+    margin-left: 90px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.point p{
+    margin-left: 90px;
+    padding-right: 50px;
+    font-size: 13px;
+    margin-top: 20px;
+    color: #FFFFFFA1;
+}
+.vecteezy img{
+    height: 350px;
+}
+
+.point button{
+    width: 30%;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #0502278F;
+    border:  solid #0502278F ;
+    margin-left: 90px;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+
+.point button a{
+    color: white;
+    text-decoration: none;
+
+}
+.social{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+.social img{
+    height: 25px;
+    padding-left: 20px;
+    margin-top: 40px;
+
+}
+
+.logo1 img{
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+
+
+
+/* ----------------footer------------ */
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footermenu{
+    background-color: #5852FE;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footermenu h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+    color: white;
+    margin-top: 30px;
+}
+.gmail{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.gmail input{
+    width: 25%;
+    height: 40px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+}
+.gmail button{
+    width: 10%;
+    height: 40px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+}
+.gmail button a{
+    color: brown;
+    font-size: 18px;
+    text-decoration: none;
+}
+.gmail input::placeholder{
+    text-align: center;
+    font-size: 20px;
+}
+
+.product{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.heading{
+    width: 10%;
+    height: 150px;
+}
+.heading h1{
+    margin-right: 30px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+}
+.heading h2{
+    margin-right: 40px;
+    color: white;
+    margin-top: 30px;
+    font-size: 27px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.heading p{
+    color: #0502278F;
+    margin-top: 10px;
+}
+.footermenu p3{
+    color: #0502278F;
+   margin-top: 80px;
+   
+
+}
+.mobile{
+    display: none;
+}
+.menu{
+    display: none;
+}
+
+
+@media screen and (max-width:950px) {
+    .top{
+        width: 100%;
+        justify-content: space-around;
+        gap: 50px;
+    }
+    .logo img{
+        height: 80px;
+    }
+    .navbar{
+        display: none;
+    }
+    .signup{
+        display: none;
+    }
+    .mobile{
+        display: none;
+        /* color: black; */
+
+    }
+    .mobile li{
+        list-style-type: none;
+    }
+    .mobile li a{
+        color: white;
+        text-decoration: none;
+               
+    }
+    .menu{
+        display: flex;
+        text-decoration: none;
+        background-color: white;
+        border: none;
+        font-size: 25px;
+        cursor:pointer;
+
+    }
+    .slideshow{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        background-color:#5852FE;
+        gap: 15px;
+        /* margin-left: 200px; */
+    
+
+    }
+   .first{
+    flex-direction: column;
+   }
+   .firsttext{
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    margin-top: 20px;
+   }
+   .firsttext h1{
+    font-size: 30px;
+    text-align: center;
+   }
+   .firsttext p{
+    text-align: center;
+   }
+   
+   .group{
+    display: none;
+
+}
+/* -----------section 2-------------- */
+  .second{
+    margin-top:-70px;
+    
+  }
+  .gifted{
+    width: 100%;
+  }
+  .gifted h1{
+    text-align: center;
+    font-size: 27px;
+  }
+  .gifted p{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding: 0px 20px;
+  }
+  .about{
+    display: none;
+  }
+  /* -----------section 3 ---------*/
+  .how h1{
+    font-size: 20px;
+    width: 35%;
+
+  }
+  .grid1 {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .firstgrid{
+    width: 100%;
+    /* padding-top: 100px; */
+  }
+  .firstgrid p{
+    font-size: 13px;
+    text-align: center;
+    padding: 0px 20px;
+  }
+ /* --------------------section 4--------- */
+
+.outer{
+    flex-direction: column;
+}
+.learn{
+    width: 70%;
+}
+.learn1{
+    width: 70%;
+}
+/* ------------section 5---------- */
+.available h1{
+    margin-top: 120px;
+}
+.main{
+    flex-direction: column;
+}
+.overallcover{
+    width: 100%;
+}
+.overallcover1{
+    width: 100%;
+    margin-top: 20px;
+}
+.design h1{
+    font-size: 13px;
+}
+.design p{
+    padding: 0px 20px;
+}
+/* -----------section 6--------- */
+.registration{
+    width: 100%;
+   flex-direction: column;
+   gap: 20px;
+
+}
+.reg{
+    width: 60%;
+    
+}
+.take{
+    width: 60%;
+    flex-direction: column;
+    margin-left: 0px;
+
+}
+.reg1 p{
+  width: 50%;
+}
+
+/* -----------section 7-------- */
+.seventh{
+}
+.feature{
+    flex-direction: column;
+    width: 100%;
+    margin-top: 300px;
+    gap: 20px;
+    margin-bottom: 300px;
+}
+.withdrawal{
+    width: 70%;
+    margin-top: 0px;
+}
+.withdrawal h1{
+    font-size: 20px;
+}
+.social{
+    display: none;
+}
+.takequiz{
+    display: none;
+}
+
+/* --------footer-------- */
+
+
+.gmail input{
+    width: 60%;
+    font-size: 17px;
+}
+.gmail button{
+    width: 20%;
+}
+.gmail button a{
+    font-size: 15px;
+}
+.gmail input::placeholder{
+    font-size: 18px;
+}
+
+.heading h1 {
+    font-size: 20px;
+}
+.heading h2 {
+    font-size: 20px;
+}.heading p{
+    font-size: 12px;
+
+}
+
+
+
+
+
+
+
+
+
+}

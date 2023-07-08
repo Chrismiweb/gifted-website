@@ -1,0 +1,212 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wholebody{
+    /* background-color: black; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.getstarted{
+    width: 40%;
+    background-color: white;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.getstarted h1{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight:800;
+    margin-top: 40px;
+    text-align: center;
+}
+.getstarted p{
+    font-size: 13px;
+    text-align: center;
+}
+.plan{
+    width: 100%;
+    height: 250px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.weekly{
+    width: 35%;
+    /* height: 80%; */
+    background-color: white;
+    border-radius: 10px;
+    border: solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 50px;
+    cursor: pointer;
+
+}
+
+.weekly:{
+    background-color: #5852FE;
+    color: white;
+    transition: .4s;
+}
+.weekly h1{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.weekly p1{
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.weekly p2{
+    font-size: 10px;
+    text-align: center;
+
+}
+span{
+    font-size: 11px;
+}
+/* .weekly:active{
+    background-color: white;
+} */
+
+.weekly1{
+    width: 35%;
+    /* height: 80%; */
+    background-color: white;
+    border-radius: 10px;
+    border: solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 28px;
+    /* padding: 0px 30px 35px 30px; */
+    cursor: pointer;
+
+
+}
+.weekly1 h1{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+.weekly1 p1{
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.weekly1 p2{
+    font-size: 10px;
+    text-align: center;
+    text-align: center;
+
+}
+.continue{
+    width: 100%;
+    height: 50px;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.continue button{
+    padding: 10px 50px;
+    background-color: #5852FE;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: white;
+
+}
+.continue button:hover{
+    padding: 15px 55px;
+    transition: .4s ease-in-out;
+
+}
+
+.back{
+    width: 100%;
+    background-color: #5852FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100px;
+    border-radius: 0px 0px ;
+}
+.back a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.back p{
+    color: white;
+}
+
+
+@media screen and (max-width: 950px) {
+    .getstarted{
+        width: 90%;
+    }
+    
+   .weekly1{
+    padding: 0px 10px 25px 10px;
+    
+   }
+   .weekly p2{
+    font-size: 11px;
+   }
+   .weekly1 p2{
+    font-size: 10px;
+   }
+   .back{
+    gap: 3px;
+    height: 120px;
+
+}
+
+.back a{
+    font-size: 8px;
+
+}
+}
+
+@media screen and (max-width: 320px){
+    .weekly p1{
+        font-size: 12px;
+    }
+    .weekly1 p1{
+        font-size: 12px;
+    }
+    .weekly p2{
+        font-size: 8px;
+    }
+    .weekly1 p2{
+        font-size: 7px;
+    }
+}
